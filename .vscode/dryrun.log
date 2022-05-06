@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/cole/Academics/SDSU Spring 2022/CS 480/Assignment#2/CS_480_Project_2'
+g++ -std=c++11 -g    -c -o dicttree.o dicttree.cpp
+g++ -std=c++11 -g    -c -o dicttest.o dicttest.cpp
+g++ -std=c++11 -g    -c -o EXEC_STATUS.o EXEC_STATUS.cpp
+g++ -std=c++11 -g  -o dicttest dicttree.o dicttest.o EXEC_STATUS.o -lpthread
+make: Leaving directory `/Users/cole/Academics/SDSU Spring 2022/CS 480/Assignment#2/CS_480_Project_2'
+ 
